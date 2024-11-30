@@ -1,0 +1,111 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: #EEE1C6;
+    color: rgb(68, 57, 43);
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color:  #f5d9c3;
+    height: 100px;
+    color:rgb(63, 45, 45);
+
+}
+nav ul{
+    justify-content: center;
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin: 20px;
+    font-family:  Verdana, Arial, Helvetica, sans-serif;
+    font-size: medium;
+    cursor: pointer;
+}
+nav ul li:hover{
+    color: orange;
+}
+.uppername{
+    font-size: 43px;
+    font-family: Georgia, 'Times New Roman', Times, serif, sans-serif;
+    text-shadow:0 2px 2px rgb(249, 162, 1); 
+}
+.uppername span{
+    font-size: 70px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:rgb(249, 162, 1) ;
+    text-shadow:0 2px 2px rgb(63, 45, 45); 
+}
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5%;
+    margin-right: 25px;
+
+}
+.leftsec{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:justify;
+  
+    margin-left: 60px; 
+    margin-right: 200px;
+}
+
+
+.rightsec img{
+    width: 321px;
+    height: 456px;
+    border-radius: 50%;
+    display: flex;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    
+    box-shadow: 2px 4px 8px rgb(249, 162, 1);
+}
+.leftsec h3{
+    font-size: 45px;
+    text-align:left;
+}
+.leftsec h1{
+    font-size: 70px;
+    text-align:left;
+}
+.leftsec h5{
+    font-size: 20pxpx;
+    text-align:justify;
+}
+hr{
+  height: 2px;
+  background-color: rgb(63, 45, 45);
+}
+.footernav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5d9c3;
+    gap: 25px;
+  
+    
+}
+.footernav ul li img{
+    width: 40px; /* Set width of the icons */
+    height: 40px;
+    object-fit: contain; /* Maintain aspect ratio of images */
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    border-radius: 50%;
+    
+}
+.footernav ul li img:hover{
+    box-shadow: 2px 2px 1px rgb(249, 162, 1);
+    background-color: rgb(255, 214, 138);
+    border-radius: 50%;
+}
+
+
+
