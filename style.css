@@ -1,0 +1,163 @@
+body {
+  background-color: lightgrey;
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+}
+
+#indexmain {
+  background-color: white;
+  margin: 2% 10px;
+  box-shadow: 1px 1px 20px gray;
+  border-radius: 2%;
+}
+
+/* Header Styling */
+.headerclass h2 {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 3rem;
+  font-weight: 500;
+  text-shadow: 1px 1px grey;
+}
+
+.headerclass nav ul {
+  list-style: none;
+  text-align: center;
+  margin-right: 50px;
+  padding: 0;
+}
+
+.headerclass nav ul li {
+  display: inline;
+  margin: 0 30px;
+}
+
+.headerclass nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.headerclass nav ul li a:hover {
+  cursor: pointer;
+  color: rgb(253, 180, 192);
+}
+
+hr {
+  border: 1px solid #f0f0f0;
+}
+
+
+#indexsection {
+  background-color: #ffc8e4;
+  font-family: "Playfair Display", serif;
+ 
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+#indexsection h1 {
+  font-size: 2.5rem;
+}
+
+#indexsection h3 {
+  font-size: 1.8rem;
+  margin-top: 10px;
+}
+
+#indexsection p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-top: 10px;
+  max-width: 60%; /* Ensures text stays on the left side */
+}
+
+aside {
+  text-align: center;
+}
+
+img {
+  width: fit-content;
+  height: 450px;
+  border: 3px solid darkmagenta;
+
+
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+.resume {
+  padding: 20px;
+  background-color: #ffc8e4;
+  font-family: "Playfair Display", serif;
+  border-radius: 8px;
+}
+
+.resume h2 {
+  font-size: 1.5rem;
+  color: darkmagenta;
+}
+
+.resume ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+.resume ul li {
+  font-size: 1.1rem;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+
+.resume ul li:before {
+  content: "•";
+  color: darkmagenta;
+  font-size: 1.2rem;
+  padding-right: 10px;
+}
+footer {
+  text-align: center;
+  padding:5px 0;
+  background-color: rgb(255, 255, 255);
+ 
+}
+
+footer p {
+  font-size: 1rem;
+  color: gray;
+}
+.bio-section {
+  margin-top: 20px;
+  background-color: #ffc8e4;
+  padding: 20px;
+  border-radius: 1%;
+}
+
+
+.bio-section h2 {
+  font-size: 1.8rem;
+  margin-top: 20px;
+  color: darkmagenta;
+ 
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.bio-section ul {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.bio-section ul li {
+  font-size: 1.1rem;
+  line-height: 1;
+  padding: 5px 0;
+}
+
+
+
+
+
